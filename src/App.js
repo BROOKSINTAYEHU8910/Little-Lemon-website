@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Header';
+import Nav from './Nav';
+import Main from './Main';
+import Footer from './Footer';
+import './App.css'; // Import the main CSS file
 
 function App() {
   return (
-    <div className="App">
-      <h1>
-        hello
-      </h1>
+    <div className="app">
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
     </div>
   );
 }
